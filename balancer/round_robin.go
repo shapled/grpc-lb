@@ -1,10 +1,10 @@
 package balancer
 
 import (
-	"github.com/liyue201/grpc-lb/common"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/grpclog"
+	"grpc-lb/common"
 	"math/rand"
 	"sync"
 )

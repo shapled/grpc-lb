@@ -2,10 +2,10 @@ package balancer
 
 import (
 	"fmt"
-	"github.com/liyue201/grpc-lb/common"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/grpclog"
+	"grpc-lb/common"
 )
 
 const ConsistentHash = "consistent_hash_x"

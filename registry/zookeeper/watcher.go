@@ -2,10 +2,10 @@ package zk
 
 import (
 	"encoding/json"
-	"github.com/liyue201/grpc-lb/registry"
-	"github.com/samuel/go-zookeeper/zk"
+	"github.com/go-zookeeper/zk"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/resolver"
+	"grpc-lb/registry"
 	"strings"
 	"sync"
 	"time"
